@@ -15,7 +15,7 @@ Make sure you read the [Getting Started](Getting-Started) page.
 
 **Upgrading?** You may want to [back up your configuration](Software-Manual#backing-up-jamulus) first.
 
-**Installing a server?** Read the [guide for server adminstrators](Running-a-Server) first.
+**Installing a server?** Read the [guide for server administrators](Running-a-Server) first.
 
 ### Debian and Ubuntu
 
@@ -36,6 +36,10 @@ chmod +x setup_repo.sh
 1. Run the setup script and install Jamulus:\\
 ```bash
 sudo ./setup_repo.sh && sudo apt install jamulus
+```
+1. If all went fine, delete the unusefull downloaded file:\\
+```bash
+rm setup_repo.sh
 ```
 
 #### Installing the .deb files manually
