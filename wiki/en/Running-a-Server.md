@@ -75,6 +75,10 @@ To run a headless server on Linux, the following steps assume you are familiar w
     ```
     sudo ./setup_repo.sh && sudo apt install jamulus-headless
     ```
+1. If all went fine, delete the unusefull downloaded file:\\
+```bash
+rm setup_repo.sh
+```
 
 1. Enable the headless Server process:
 
